@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+.head{
+    width:100%;
+    margin: 10 10 10 10%;
+}
+.logo{
+    margin: 10px 10px 10px 10%;
+}
+.span{
+        width: 100%;
+        margin: 20 20 20 20;
+}
+.dropdown{
+    text-align: left;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 10 10 10 7%;
+    z-index: 5;
+}
+.dropdown ul{
+    display: inline-flex;
+    list-style: none;
+    color: gray;
+    width:90%;
+    z-index: 5;
+    padding:5px;
+
+}
+.dropdown ul li{
+    width: 90%;
+    margin: 5 5 5 0;
+    padding: 5px;
+    z-index: 5;
+    padding: 5px;
+
+}
+.dropdown ul li a:hover{
+    text-decoration: none;
+    color: rgb(67, 144, 233);
+    z-index: 5;
+}
+.dd1{
+    display: none;
+    text-align: left;
+    width: 25%;
+    background-color:white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+    border-radius: 20px;
+    padding: 7px;
+    z-index: 5;
+}
+dd:hover{
+color: rgb(53, 138, 207);
+font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown ul li:hover .dd1{
+    display: block;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 15px;
+    z-index: 5;
+}
+.installation{
+    background-color: rgb(17, 11, 73);
+    color: aliceblue;
+    width: 70%;
+    margin: 20 20 20 10%;
+    height: 80;
+    padding: 50 10 20 30;
+    border-radius: 20px;
+}
+#img{
+    overflow: hidden;
+}
+#img figure{
+position: relative;
+width: 90%;
+margin: 0;
+left: 0;
+}
+#img{
+    margin: 20px 20px 20px 10%;
+    position: relative;
+    z-index: -1;
+    animation: img infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes img{
+    0%{
+         left:100% ;
+    }
+    20%{
+        left: 0%;
+    }
+    20%{
+        left:-100%;
+    }
+    50%{
+        
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300% ;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left:-400%;
+    }
+}
+.shoes{
+    padding: 1% 1% 1% 5%;
+    display: inline-block;
+    
+}
+.s2{
+padding: 1% 1% 1% 1%;
+display: inline-block;
+
+}
+.s2:hover {
+text-decoration: underline;
+opacity: 0.8;
+}
+.s3{
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    align-items: center;
+}
+.s3:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.s4{
+padding: 1% 1% 1% 1%;
+    display: inline-block;
+    align-items: center;
+}
+.s4:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.s5{
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    align-items: center;
+
+}
+.s5:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.f1{
+    padding: 1% 1% 1% 4%;
+    display: inline-block;
+}
+.f1:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.f2{
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+}
+.f2:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.f3{
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+}
+.f3:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.f4{
+    padding: 1% 1% 1% 1%;
+    display: inline-block
+}
+.f4:hover{
+    opacity: 0.80;
+    text-decoration: underline;}
+.f5{
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+}
+.f5:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.f6{
+    padding: 1% 1% 1% 1%;
+    display: inline-block
+}
+.f6:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.box{
+    background-color: black;
+    width: 230;height: 230;
+    border-radius: 15px;
+    margin: 20 20 20 280;
+    display:-webkit-inline-box;
+}
+.both{
+    display: inline-block
+}
+.box:hover{
+    text-decoration: underline;
+    color: white;
+}
+.b1{
+    padding: 0px 15px 20px 4%;
+    display: inline-block;
+
+}
+.b1:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.l1{
+    padding: 20px 15px 20px 20px;
+    display: inline-block
+}
+.l1:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.l2{
+    padding: 20px 15px 20px 20px;
+    display: inline-block
+}
+.l2:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.l3{
+    padding: 20px 15px 20px 20px;
+    display: inline-block
+}
+.l3:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.l4{
+    padding: 20px 15px 20px 20px;
+    display: inline-block
+}
+.l4:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.l5{
+    padding: 20px 15px 20px 20px;
+    display: inline-block
+}
+.l5:hover{
+    opacity: 0.80;
+    text-decoration: underline;
+}
+.grey{
+    display: inline-block;
+}
+.shoes:hover {
+text-decoration: underline;
+opacity: 0.8;
+}
+
+.p1{
+    display: inline-block;
+}
+.blue{
+    margin: 0px 10px 10 10%;
+    display:inline-block ;
+    padding: 12px;
+
+}
+#hover:hover{
+    background-color: black;
+    border-radius: 45px;
+    padding: 0px 0px 0px 0px;  
+    width: 30%;
+    color: white;
+}
+.block{
+    float: right;
+}
+
+.jew{
+margin: 20px 20px 20px 10%;
+}
+.foot ul{
+    display: inline-flex;
+    list-style: none;
+    color: gray;
+    width: 100%;
+    font-weight:normal;
+    margin: 20 20 20 2%;
+}
+.foot ul li{
+    width: 100%;
+    margin: 20px;
+    padding: 1px;
+}
+.foot dl dd{
+    text-decoration: none;
+}
+@media screen only and (min-width: 480px;){
+    .img, .b1, .both, .blue, .span, .all image{
+         max-width: 100%;
+    }
+        .dropdown{
+           width: 60%;
+    
+    }
+}
+.all Image{
+    align-items: center;
+}
+
